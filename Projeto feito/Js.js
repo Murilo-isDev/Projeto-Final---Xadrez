@@ -3,7 +3,7 @@ var linksDoHeader = document.getElementById('linksDoHeader');
 var conteudo =         document.getElementById('conteudo');
 var AbrirBarraLateral = false; /*Essa Variável define se a barra vai estar mostrando ou não
 Portanto na versão de pc não queremos que ela apareça*/ 
-
+var seta = false;
 function MoverBarraLateral() {
     AbrirBarraLateral =! AbrirBarraLateral; /*Com o evento definido no elemento do html, eu preciso que o usuário ao clicar no ícone 
     rode a animação da barra lateral. Desse jeito eu garanto que ao passar nessa função, a animação abra e feche, porque 
@@ -41,3 +41,18 @@ function MoverBarraLateral() {
 
     }
    });
+
+function Cliquenaseta() {
+    seta =! seta;
+
+    if(seta){ 
+        OpcoesDaSetinha.style.marginTop = '-10vw';
+        OpcoesDaSetinha.style.animationName = 'seta';
+        OpcoesDaSetinha.style.displayBlock = '';
+    }
+    else{
+        OpcoesDaSetinha.style.marginLeft = '-100vw'; 
+        OpcoesDaSetinha.style.animationName = ''; 
+      
+    }
+

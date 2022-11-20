@@ -172,5 +172,22 @@ to {margin-left: -10vw;}
 
 }
 
+li{
+    display: none;
+}
 
+li:hover{
+    display: block;
+}
 
+a{
+    list-style: none;
+}
+
+@keyframes seta {
+    
+   
+    from {margin-top: -100vw;}
+    to {margin-top: -10vw;}
+    
+    }
