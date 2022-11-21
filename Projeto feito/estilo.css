@@ -43,23 +43,8 @@ body{ /* Definindo backgroud e fonte padrão*/
     gap: 3em; /* define um espaço entre os elementos*/
     z-index: 2;/*mando para a camado 2, isso permitiu que ao clicar no botão, o fundo não estourasse*/
 }
-.OpcoesDaSetinha ul{
-    list-style-type: none; /*tirar as bolinhas da lista*/
-    padding: 0;
-    background-color: var(--cor-fundoDaTabela);
-}
 
-.OpcoesDaSetinha ul li{
-   display: inline-block;
-}
-.OpcoesDaSetinha ul li a{
-    color: var(--cor-azulClaro);
-    text-decoration: none;
-    padding: 10px;
-}
-.OpcoesDaSetinha ul li a:hover{
-    background-color: var(--cor-branco);
-}
+
 
 
 .barraVertical{ /* altura, largura e fcor de fundo da barra*/
@@ -86,6 +71,7 @@ body{ /* Definindo backgroud e fonte padrão*/
     height: 100vh;
     transition: 1s; /* transição de 1s ao desfocar*/
     color: #000;
+    height: 100%;
 }
 
 /*Parte Desktop feita*/ 
@@ -137,7 +123,6 @@ to {margin-left: -10vw;}
 
 .footer{
     background-color: var(--cor-azulEscuro);
-    height: 110px; 
     justify-content: space-between; /*joga as divs para as extremidades direita e esquerd*/
     padding: 0 10%;
     height: 3.5em;
@@ -146,6 +131,7 @@ to {margin-left: -10vw;}
     text-align: center;
     font-family: 'Raleway';
     padding-top: 20px;
+    
 }
 
 .imagensDoFooter{
@@ -172,22 +158,5 @@ to {margin-left: -10vw;}
 
 }
 
-li{
-    display: none;
-}
 
-li:hover{
-    display: block;
-}
 
-a{
-    list-style: none;
-}
-
-@keyframes seta {
-    
-   
-    from {margin-top: -100vw;}
-    to {margin-top: -10vw;}
-    
-    }
