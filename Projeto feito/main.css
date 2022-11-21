@@ -29,14 +29,71 @@
     scale: 120%;
 }
 
+
+.mikailTal{
+    
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+.magnusCarlsen{
+    
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.garryKasparov{
+   
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.anatolyKarpov{
+    
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.mikailBotivinick{
+    
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.alekine{
+   
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.capablanca{
+    
+    display: flex;
+    align-items: center;
+    gap: 3em;
+
+}
+.bobbyFicher{
+    
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.paulMorphy{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
 .fotoJogador{
     width: 17em;
     height: 17em;
-    margin-top: 7em;
-   position: relative;
+   margin-top: 3em;
    display: block;
    margin-left: 10em;
-  
+
 }
 
 
@@ -44,20 +101,35 @@ p{
     color: var(--cor-preto);
     font-size: 150%;
     font-weight: bold;
-    display: inline-block;
-    margin-top: -10%;
-    position: absolute;
+    text-align: center;
    margin-right: 15%;
+   margin-left: 5%;
+   width: 150px;
+   height: 55px;
    
 }
 
 .tabuleiro{
-    width: 10%;
-    display: inline-block;
-    position: absolute;
-    margin-right: 15%;
-
+   width: 200px;
+   height: 200px;
 }
+
+a{
+    text-decoration: none;
+}
+.jogadores{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px ) {
+    .jogadores{
+        width: 25%;
+        height: 25%;
+    }
+}
+
+
 
 
 

@@ -131,6 +131,7 @@ to {margin-left: -10vw;}
     text-align: center;
     font-family: 'Raleway';
     padding-top: 20px;
+    box-sizing: border-box;
     
 }
 
